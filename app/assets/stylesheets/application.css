@@ -19,6 +19,10 @@ body {
  color:#999999;
 }
 
+.navbar-header img {
+  max-height:100%;
+}
+
 div.info {
   margin-bottom:20px;
 }
