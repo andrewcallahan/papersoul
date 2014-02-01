@@ -19,6 +19,10 @@ body {
  color:#999999;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar-header img {
   max-height:100%;
 }
