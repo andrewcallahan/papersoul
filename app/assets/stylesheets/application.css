@@ -33,6 +33,11 @@ div.images {
   margin-right: auto ;
 }
 
+div.images img {
+  margin-right:5px;
+  margin-bottom:5px;
+}
+
 .navbar-header a {
   max-width:75%;
 }
