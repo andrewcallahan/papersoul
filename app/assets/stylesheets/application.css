@@ -13,9 +13,8 @@
  *= require_tree .
  */
 
-body {
+* {
  font-family: 'HelveticaNeue-UltraLight';
- font-size: 16px;
  color:#999999;
 }
 
@@ -96,7 +95,9 @@ div#xoxo {
 }
 
 
-
+div.footer {
+  display:block;
+}
 div.footer {
    font-size: 14px;
 }
@@ -121,6 +122,30 @@ div.footer li:first-child {
   float:left;
 }
 
+@media screen and (max-width: 767px){
+  div.footer {
+    font-size: 10px;
+  }
+  div.footer li:nth-child(2) {
+    clear: left;
+  }
+  div.footer li {
+    float:left;
+  }
+
+
+div.footer { width: 100%; overflow: hidden; }
+div.footer ul { position: relative; float: left; display: block; left: 43%; }
+div.footer ul li { position: relative; float: left; display: block; right: 50%; }
+
+
+}
+
+@media screen and (min-width: 768px){
+  * {
+    font-size: 16px;
+  }
+}
 a:link {color:#999999; text-decoration: none;}      /* unvisited link */
 a:visited {color:#999999; text-decoration: none;}  /* visited link */
 a:hover {color:#B87333; text-decoration: none;}  /* mouse over link */
