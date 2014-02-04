@@ -124,10 +124,16 @@ div.footer li:first-child {
 
 @media screen and (max-width: 767px){
   div.footer {
-    font-size: 10px;
+    font-size: 12px;
   }
+
+  div.footer li:first-child {
+    margin-bottom:5px;
+  }
+
   div.footer li:nth-child(2) {
     clear: left;
+    margin-left:30px;
   }
   div.footer li {
     float:left;
