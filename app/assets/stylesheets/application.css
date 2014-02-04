@@ -18,6 +18,11 @@
  color:#999999;
 }
 
+.navbar {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -36,10 +41,6 @@ div.images {
 div.images img {
   margin-right:5px;
   margin-bottom:5px;
-}
-
-.navbar-header a {
-  max-width:75%;
 }
 
 div.info {
@@ -128,6 +129,10 @@ div.footer li:first-child {
 }
 
 @media screen and (max-width: 767px){
+  .navbar-header a {
+    max-width:75%;
+  }
+
   div.footer {
     font-size: 12px;
   }
@@ -144,12 +149,24 @@ div.footer li:first-child {
     float:left;
   }
 
+  div.footer {
+    width: 100%;
+    overflow: hidden;
+  }
 
-div.footer { width: 100%; overflow: hidden; }
-div.footer ul { position: relative; float: left; display: block; left: 43%; }
-div.footer ul li { position: relative; float: left; display: block; right: 50%; }
+  div.footer ul {
+    position: relative;
+    float: left;
+    display: block;
+    left: 43%;
+  }
 
-
+  div.footer ul li {
+    position: relative;
+    float: left;
+    display: block;
+    right: 50%;
+  }
 }
 
 @media screen and (min-width: 768px){
@@ -157,6 +174,7 @@ div.footer ul li { position: relative; float: left; display: block; right: 50%; 
     font-size: 16px;
   }
 }
+
 a:link {color:#999999; text-decoration: none;}      /* unvisited link */
 a:visited {color:#999999; text-decoration: none;}  /* visited link */
 a:hover {color:#B87333; text-decoration: none;}  /* mouse over link */
