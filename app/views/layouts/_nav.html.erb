@@ -8,17 +8,14 @@
       </button>
 
       <span data-picture>
-        <span data-src="/assets/logo-mobile-new.png"></span>
-        <span data-src="/assets/new_logo.png" data-media="(min-width: 768px)"></span>
+        <span data-src="http://www.papersoulnyc.com/images/logo-mobile-new.png"></span>
+        <span data-src="http://www.papersoulnyc.com/images/new_logo.png" data-media="(min-width: 768px)"></span>
 
         <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
         <noscript>
-            <img src="/assets/logo-mobile-new.png">
+            <%= image_tag("logo-mobile-new.png") %>
         </noscript>
       </span>
-
-
-      <!-- <a class="navbar-brand" href="#"><%= image_tag("new_logo.png") %></a> -->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
