@@ -40,8 +40,9 @@ div.images {
 }
 
 div.images img {
-  margin-right:5px;
-  margin-bottom:5px;
+  margin-bottom:4px;
+  max-width:320px;
+  width:100%;
 }
 
 div.info {
@@ -136,7 +137,9 @@ div.footer li:nth-child(2) {
   margin-right:0;
 }
 
-@media screen and (max-width: 767px){
+
+
+@media only screen and (max-width: 767px){
   .navbar-header a {
     max-width:75%;
   }
