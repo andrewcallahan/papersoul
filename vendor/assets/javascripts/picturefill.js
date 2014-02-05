@@ -1,7 +1,7 @@
 /*! Picturefill - Responsive Images that work today. (and mimic the proposed Picture element with span elements). Author: Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2 */
 
 (function( w ){
-
+console.log("hello")
 	// Enable strict mode
 	"use strict";
 

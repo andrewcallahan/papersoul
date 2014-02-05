@@ -10,8 +10,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= render :partial => 'layouts/nav' %>
   <div class="container-fluid">
+    <%= render :partial => 'layouts/nav' %>
     <%= yield %>
     <%= render :partial => 'layouts/footer' %>
   </div>

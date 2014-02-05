@@ -1,30 +1,32 @@
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        MENU
-      </button>
+<div class="row">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          MENU
+        </button>
 
-      <span data-picture>
-        <span data-src="<%= asset_path "logo-mobile-new.png" %>"></span>
-        <span data-src="<%= asset_path "new_logo.png" %>" data-media="(min-width: 768px)"></span>
+        <span data-picture>
+          <span data-src="<%= asset_path "logo-mobile-new.png" %>"></span>
+          <span data-src="<%= asset_path "new_logo.png" %>" data-media="(min-width: 768px)"></span>
 
-        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-        <noscript>
-            <%= image_tag("logo-mobile-new.png") %>
-        </noscript>
-      </span>
-    </div>
+          <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+          <noscript>
+              <%= image_tag("logo-mobile-new.png") %>
+          </noscript>
+        </span>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to 'HOME', root_path %></li>
-        <li><%= link_to 'PORTFOLIO', portfolio_path %></li>
-        <li><%= link_to 'CONTACT', contact_path %></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to 'HOME', root_path %></li>
+          <li><%= link_to 'PORTFOLIO', portfolio_path %></li>
+          <li><%= link_to 'CONTACT', contact_path %></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>

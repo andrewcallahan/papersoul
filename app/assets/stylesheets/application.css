@@ -50,10 +50,9 @@ div.images {
   margin-top:40px;
 }
 
-div.images img {
-  margin-bottom:14px;
-  margin-right:10px;
-  max-width:320px;
+
+div.images-home img {
+  margin-bottom:30px;
   width:100%;
 }
 
@@ -116,9 +115,6 @@ div#xoxo {
 
 
 div.footer {
-  display:block;
-}
-div.footer {
    font-size: 14px;
 }
 
@@ -128,9 +124,8 @@ div.footer img {
 }
 
 div.footer ul {
-  margin-top:20px;
-  margin-left:0;
-  padding:0;
+  /*margin-top:20px;*/
+  padding-left:15px;
 }
 
 div.footer li {
@@ -142,11 +137,11 @@ div.footer li {
 
 div.footer li:first-child {
   float:left;
-  margin-right:0;
+  padding-right:0;
 }
 
 div.footer li:nth-child(2) {
-  margin-right:0;
+  /*margin-right:0;*/
 }
 
 
