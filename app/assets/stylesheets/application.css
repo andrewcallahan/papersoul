@@ -129,12 +129,14 @@ div.footer ul {
 }
 
 div.footer li {
-  margin-right: 14px;
   line-height: 30px;
   vertical-align:middle;
   float:right;
 }
 
+div.footer li:nth-child(2) img {
+  margin-right: 14px;
+}
 div.footer li:first-child {
   float:left;
   padding-right:0;
@@ -162,6 +164,9 @@ div.footer li:nth-child(2) {
     margin-top:0;
   }
 
+  div.images div {
+    margin-bottom:30px;
+  }
   div.images img {
     margin:0;
     padding:0;
