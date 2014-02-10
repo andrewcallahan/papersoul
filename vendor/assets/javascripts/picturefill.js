@@ -38,6 +38,7 @@
 				}
 
 				picImg.src =  matchedEl.getAttribute( "data-src" );
+				picImg.setAttribute("data-pin-no-hover", "true");
 				matchedEl.appendChild( picImg );
 				picImg.removeAttribute("width");
 				picImg.removeAttribute("height");
